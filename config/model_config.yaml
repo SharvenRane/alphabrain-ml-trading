@@ -1,0 +1,8 @@
+target_horizon_days: 5
+model_type: "xgboost_binary"
+xgboost_params:
+  n_estimators: 300
+  max_depth: 4
+  learning_rate: 0.05
+  subsample: 0.8
+  colsample_bytree: 0.8

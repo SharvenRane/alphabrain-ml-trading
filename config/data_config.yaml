@@ -1,0 +1,10 @@
+tickers:
+  - AAPL
+  - MSFT
+  - GOOGL
+  - AMZN
+  - META
+benchmark: "^GSPC"
+start_date: "2015-01-01"
+end_date: "2025-01-01"
+price_interval: "1d"

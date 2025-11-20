@@ -1,0 +1,5 @@
+initial_capital: 100000.0
+transaction_cost_bps: 5          # 0.05%
+rebalance_frequency: "weekly"    # daily / weekly / monthly
+long_short: true                 # true = long top decile, short bottom decile
+position_sizing: "equal_weight"
