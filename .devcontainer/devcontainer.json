@@ -1,0 +1,16 @@
+{
+  "name": "AlphaBrain Development Environment",
+  "dockerFile": "../Dockerfile",
+  "context": "..",
+  "workspaceFolder": "/app",
+  "remoteUser": "root",
+  "extensions": [
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "ms-toolsai.jupyter"
+  ],
+  "settings": {
+    "python.defaultInterpreterPath": "/usr/local/bin/python"
+  },
+  "postCreateCommand": "pip install -r requirements.txt"
+}
